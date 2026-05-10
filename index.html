@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galle Fort Kitchen | Galle, Sri Lanka</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- navbar  -->
+  <header class="navbar">
+    <div class="navbar-container">
+
+      <div class="logo">
+        <span class="logo-icon">🏛️</span>
+        <span class="logo-text">Galle Fort Kitchen</span>
+      </div>
+
+      <!-- desktop navigation -->
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#popular">Popular</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <!-- hamburger button - mobile only -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- hero section -->
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <img
+        src="images/hero.png"
+        alt="Traditional Sri Lankan food spread at Galle Fort Kitchen restaurant in Galle"
+        class="hero-bg"
+      />
+      <div class="hero-content">
+        <p class="hero-tagline">Galle Fort · Sri Lanka</p>
+        <h1 class="hero-title">Taste the Soul<br/>of Sri Lanka</h1>
+        <p class="hero-subtitle">
+          Authentic flavors, colonial charm and the warmth of the South.<br/>
+          Welcome to Galle Fort Kitchen.
+        </p>
+        <a href="#menu" class="btn-primary">Explore Our Menu</a>
+      </div>
+    </section>
+
+    <!-- most popular section -->
+    <section class="popular" id="popular">
+      <div class="section-container">
+
+        <div class="section-header">
+          <span class="section-label">Guest Favourites</span>
+          <h2 class="section-title">Most Popular Dishes</h2>
+          <p class="section-subtitle">The dishes our guests keep coming back for.</p>
+        </div>
+
+        <div class="popular-grid">
+
+          <!-- popular card 1 -->
+          <div class="popular-card">
+            <div class="popular-card-img">
+              <img src="images/Kottu.jpg" alt="Kottu Roti - chopped roti stir fried with vegetables and spices" />
+              <span class="popular-badge">⭐ #1 Favourite</span>
+            </div>
+            <div class="popular-card-body">
+              <h3>Kottu</h3>
+              <p>Crispy shredded roti stir-fried with vegetables, egg and our signature spice blend. A Sri Lankan street food icon.</p>
+              <span class="popular-price">LKR 1,200</span>
+            </div>
+          </div>
+
+          <!-- popular card 2 -->
+          <div class="popular-card">
+            <div class="popular-card-img">
+              <img src="images/Hoppers.jpg" alt="Bowl-shaped hoppers - crispy rice flour crepes from Sri Lanka" />
+              <span class="popular-badge">⭐ Must Try</span>
+            </div>
+            <div class="popular-card-body">
+              <h3>Hoppers</h3>
+              <p>Bowl-shaped crispy rice and coconut milk crepes. Served with sambol and dhal — a true morning classic.</p>
+              <span class="popular-price">LKR 800</span>
+            </div>
+          </div>
+
+          <!-- popular card 3 -->
+          <div class="popular-card">
+            <div class="popular-card-img">
+              <img src="images/watalappan.jpg" alt="Watalappam - traditional Sri Lankan coconut jaggery custard pudding" />
+              <span class="popular-badge">⭐ Chef's Pick</span>
+            </div>
+            <div class="popular-card-body">
+              <h3>Watalappam</h3>
+              <p>Traditional jaggery and coconut milk custard pudding spiced with cardamom and nutmeg. A Fort dessert treasure.</p>
+              <span class="popular-price">LKR 650</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- full menu section -->
+    <section class="menu" id="menu">
+      <div class="section-container">
+
+        <div class="section-header">
+          <span class="section-label">What We Serve</span>
+          <h2 class="section-title">Our Full Menu</h2>
+          <p class="section-subtitle">All dishes are prepared fresh daily using traditional recipes and local ingredients.</p>
+        </div>
+
+        <div class="menu-grid">
+
+          <!-- starters -->
+          <div class="menu-category">
+            <h3 class="category-title">Starters</h3>
+
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h4>Isso Vadai</h4>
+                <p>Crispy prawn fritters seasoned with curry leaves and green chilli.</p>
+              </div>
+              <span class="menu-price">LKR 650</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h4>Parippu Vadai</h4>
+                <p>Golden lentil fritters spiced with cumin, chilli and onion.</p>
+              </div>
+              <span class="menu-price">LKR 450</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h4>Fish Cutlets</h4>
+                <p>Spiced tuna and potato patties, lightly breaded and pan-fried.</p>
+              </div>
+              <span class="menu-price">LKR 550</span>
+            </div>
+
+          </div>
+
+          <!-- mains -->
+          <div class="menu-category">
+            <h3 class="category-title">Mains</h3>
+
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h4>Rice & Curry</h4>
+                <p>Classic red rice served with 5 vegetable curries, dhal and papadums.</p>
+              </div>
+              <span class="menu-price">LKR 1,400</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h4>Kottu</h4>
+                <p>Shredded roti stir-fried with vegetables, egg and signature spices.</p>
+              </div>
+              <span class="menu-price">LKR 1,200</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h4>String Hoppers</h4>
+                <p>Steamed rice flour noodle nests served with coconut sambol and curry.</p>
+              </div>
+              <span class="menu-price">LKR 900</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h4>Hoppers</h4>
+                <p>Bowl-shaped crispy rice and coconut milk crepes with sambol and dhal.</p>
+              </div>
+              <span class="menu-price">LKR 800</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h4>Milk Rice</h4>
+                <p>Creamy rice cooked in thick coconut milk, served with lunu miris sambol.</p>
+              </div>
+              <span class="menu-price">LKR 700</span>
+            </div>
+
+          </div>
+
+          <!-- desserts -->
+          <div class="menu-category">
+            <h3 class="category-title">Desserts</h3>
+
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h4>Watalappam</h4>
+                <p>Traditional jaggery and coconut custard pudding with cardamom and nutmeg.</p>
+              </div>
+              <span class="menu-price">LKR 650</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h4>Coconut Roti</h4>
+                <p>Soft flatbread made with fresh coconut and flour, served with pol sambol.</p>
+              </div>
+              <span class="menu-price">LKR 500</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h4>Pancakes</h4>
+                <p>Thin Sri Lankan pancakes filled with sweet coconut and jaggery.</p>
+              </div>
+              <span class="menu-price">LKR 550</span>
+            </div>
+
+          </div>
+
+          <!-- drinks -->
+          <div class="menu-category">
+            <h3 class="category-title">Drinks</h3>
+
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h4>Sri Lanka Tea</h4>
+                <p>Strong brewed Ceylon tea with fresh ginger and local cane sugar.</p>
+              </div>
+              <span class="menu-price">LKR 350</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h4>King Coconut</h4>
+                <p>Freshly opened Thambili water served in its bright orange shell.</p>
+              </div>
+              <span class="menu-price">LKR 400</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h4>Woodapple Drink</h4>
+                <p>Chilled wood apple pulp blended with coconut milk and a pinch of salt.</p>
+              </div>
+              <span class="menu-price">LKR 450</span>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+      <div class="section-container">
+        <div class="about-grid">
+
+          <div class="about-image">
+            <img src="images/about.png" alt="Colonial-style interior of Spice Harbor restaurant in Galle Fort" />
+          </div>
+
+          <div class="about-content">
+            <span class="section-label">Our Story</span>
+            <h2 class="section-title">A Legacy of Flavor</h2>
+            <p>
+              Nestled in the heart of the historic Galle Fort, Spice Harbor brings the rich
+              culinary heritage of Sri Lanka to your table. Our kitchen is guided by traditional
+              recipes passed down through generations of southern Sri Lankan families.
+            </p>
+            <p>
+              Every dish is prepared fresh daily using locally sourced spices, coconut, and
+              seafood from the Galle harbor. We believe the best food tells a story — and ours
+              is one of warmth, heritage and the spirit of the South.
+            </p>
+            <blockquote>
+              "If it doesn't smell like our grandmother's kitchen, we start again."
+            </blockquote>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- footer -->
+  <footer class="footer" id="contact">
+    <div class="footer-container">
+
+      <div class="footer-brand">
+        <span class="logo-icon">🏛️</span>
+        <h3>Galle Fort Kitchen</h3>
+        <p>Authentic Sri Lankan flavors in the heart of Galle Fort since 2010.</p>
+      </div>
+
+      <div class="footer-info">
+        <h4>Visit Us</h4>
+        <p>No. 12, Lighthouse Street,</p>
+        <p>Galle Fort, Galle,</p>
+        <p>Sri Lanka</p>
+      </div>
+
+      <div class="footer-info">
+        <h4>Contact</h4>
+        <p><a href="tel:+94912234567">+94 91 223 4567</a></p>
+        <p>info@gallefortkitchen.lk</p>
+      </div>
+
+      <div class="footer-info">
+        <h4>Opening Hours</h4>
+        <div class="hours-row">
+          <span>Mon – Fri</span>
+          <span>10:00 AM – 10:00 PM</span>
+        </div>
+        <div class="hours-row">
+          <span>Sat – Sun</span>
+          <span>08:00 AM – 11:00 PM</span>
+        </div>
+      </div>
+
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Galle Fort Kitchen, Galle. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
