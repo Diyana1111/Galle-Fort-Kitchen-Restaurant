@@ -144,7 +144,7 @@ cd Galle-Fort-Kitchen
 
 ## 👨‍💻 Developer
 
-> _Add your name, batch, and DecodeLabs profile link here_
+> Diyana Jayasekara
 
 **Batch:** 2026
 **Program:** Full Stack Development Internship
