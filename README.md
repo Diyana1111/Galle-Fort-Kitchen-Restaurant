@@ -146,9 +146,9 @@ cd Galle-Fort-Kitchen
 
 > Diyana Jayasekara
 
-**Batch:** 2026
-**Program:** Full Stack Development Internship
-**Powered by:** DecodeLabs
+- **Batch:** 2026
+- **Program:** Full Stack Development Internship
+- **Powered by:** DecodeLabs
 
 ---
 
