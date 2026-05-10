@@ -14,7 +14,7 @@ The goal was to design and build a clean, user-friendly, fully responsive restau
 
 ## 🌐 Live Demo
 
-> _Add your GitHub Pages or Netlify link here once deployed_
+> https://diyana1111.github.io/Galle-Fort-Kitchen-Restaurant/
 
 ---
 
